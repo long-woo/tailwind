@@ -1,0 +1,30 @@
+{
+  "name": "@loongwoo/tailwind",
+  "version": "1.0.0",
+  "description": "Basic configuration of tailwind css.",
+  "type": "module",
+  "main": "index.css",
+  "module": "index.css",
+  "keywords": ["tailwind", "css", "postcss"],
+  "author": {
+    "name": "loong.woo",
+    "email": "longwunet@outlook.com",
+    "url": "https://longwoo.me"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/long-woo/tailwind.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/long-woo/tailwind/issues"
+  },
+  "homepage": "https://github.com/long-woo/tailwind#readme",
+  "exports": {
+    ".": {
+      "import": "./index.css",
+      "require": "./index.css"
+    },
+    "./*": "./*"
+  }
+}
