@@ -19,3 +19,11 @@ Add code to the entry file：
 ```ts
 import '@loongwoo/tailwind'
 ```
+
+- `nuxt.config.ts` file
+
+```ts
+export default defineNuxtConfig({
+  css: ['@loongwoo/tailwind/index.css']
+})
+```
